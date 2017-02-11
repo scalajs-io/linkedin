@@ -5,7 +5,7 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "0.3.0.3"
+val apiVersion = "0.1.0"
 val scalaJsIOVersion = "0.3.0.4-SNAPSHOT"
 val scalaJsVersion = "2.12.1"
 
@@ -14,7 +14,7 @@ homepage := Some(url("https://github.com/scalajs.io/linkedin"))
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
   settings(
-    name := "linkedin",
+    name := "linkedin-sdk",
     organization := "io.scalajs.npm",
     description := "Linkedin API bindings for Scala.js",
     version := apiVersion,

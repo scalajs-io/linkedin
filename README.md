@@ -1,21 +1,23 @@
 Linkedin API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [linkedin](https://developer.linkedin.com/docs)
+[linkedin](https://developer.linkedin.com/docs) - Linkedin SDK for Scala.js
+
+### Description
 
 Linkedin SDK for Scala.js
 
-#### Build Dependencies
+### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +31,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 Inside of your HTML index page:
 
@@ -77,12 +79,12 @@ IN.API.Profile(js.Array("me")) onComplete {
 }
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
 To add the `Linkedin` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "linkedin" % "0.3.0.3"
+libraryDependencies += "io.scalajs.npm" %%% "linkedin" % "0.3.0.4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

@@ -15,7 +15,7 @@ lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
   settings(
     name := "linkedin-sdk",
-    organization := "io.scalajs.npm",
+    organization := "io.scalajs",
     description := "Linkedin API bindings for Scala.js",
     version := apiVersion,
     scalaVersion := scalaJsVersion,

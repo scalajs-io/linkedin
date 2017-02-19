@@ -84,7 +84,7 @@ IN.API.Profile(js.Array("me")) onComplete {
 To add the `Linkedin` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "linkedin" % "0.3.0.4"
+libraryDependencies += "io.scalajs" %%% "linkedin-api" % "0.3.0.4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
